@@ -49,22 +49,45 @@ body {
     width: 50rem;
     /* 撐開內邊距 */
     padding: 3%;
+    /*背景*/
+
     /* 陰影 */
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px 1px rgba(162, 184, 22, 0.2);
     /* 外框 */
-    border: 1px solid #51515130;
+    border: 1px solid #93131330;
     /* 變形, 幅度為 .3rem (圓角矩形) */
     border-radius: .3rem;
     /* 過度動畫長度指定半秒鐘 */
     transition: all .5s;
 }
+.btn-custom-1 {
+    background-color: #28a745 !important; 
+    color: rgb(0, 255, 238) !important;
+}
+
+.wrapper .btn-custom-2 {
+    background-color: #ffc107; 
+    color: black;
+}
+
+.wrapper .btn-custom-3 {
+    background-color: #dc3545; 
+    color: rgb(128, 255, 0);
+}
+
+.wrapper .btn-custom-4 {
+    background-color: #6c757d; 
+    color: rgb(255, 255, 255);
+}
+
 
 /* 冒號的意思是選擇虛擬類別 */
 /* id選擇器, 選擇所有 id="wrapper"的東西裡面 class="btn" 的東西*/
 /* 虛擬類別選擇器, 這裡選擇這東西被滑鼠懸停時的狀態 */
 .wrapper .btn:hover {
     /* 外框 */
-    border: 1px solid #51515150;
+    border: 1px solid #540e0e50;
     /* 陰影 */
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
 }
